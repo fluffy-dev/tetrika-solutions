@@ -1,8 +1,7 @@
-# task_1/test_solution.py
 import pytest
-from task1.solution import strict  # Assuming solution.py is in the same directory or PYTHONPATH is set
+from task1.solution import strict
 
-# Define some functions to decorate for testing
+
 @strict
 def sum_two_strict(a: int, b: int) -> int:
     return a + b
