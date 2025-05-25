@@ -1,4 +1,3 @@
-# task_2/solution.py
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
